@@ -32,3 +32,28 @@
   body {
       background: var(--color-background);
   }
+  #root {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  body,
+  input,
+  button,
+  textarea
+  {
+    font: 500 1.6rem Poppins;
+  }
+
+  .container {
+    width: 90vw;
+    max-width: 700px;
+  }
+
+  @media (min-width){
+    :root{
+        font-size: 62,5%;
+
+    }
+  }
