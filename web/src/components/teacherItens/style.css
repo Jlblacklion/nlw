@@ -2,28 +2,28 @@
     background: var(--color-box-base);
     border: 1px solid var (--color-line-in-white);
     border-radius: 0.8rem;
-    margin-top: 2.4rem;
+    margin-top: 1.4rem;
     overflow: hidden;
 }
 
 .teacher-item header {
-    padding: 3.2rem 2rem;
+    padding: 1.2rem 2rem;
     display: flex;
     align-items: center;
 }
 
 .teacher-item header img {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
 }
 
 .teacher-item header div {
-    margin-left: 2.4rem;
+    margin-left: 1.4rem;
 }
 
 .teacher-item header div strong{
-    font: 700 2.4rem Archivo;
+    font: 400 2.4rem Archivo;
     display: block;
     color: var (--color-text-title);
 }
@@ -41,10 +41,10 @@
 }
 
 .teacher-item footer {
-    padding: 3.2rem 2rem;
+    padding: 2.2rem 2rem;
     background: var (--color-box-footer);
     border-top:  1px solid var(--color-line-in-white);
-    margin-top: 3.2rem;
+    margin-top: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,19 +52,19 @@
 
 .teacher-item footer p strong{
     color: var(--color-primary);
-    font-size: 1.6rem;
+    font-size: 0.8rem;
     display: block;
 }
 
 .teacher-item footer button{
     width: 20rem;
-    height: 5.6em;
+    height: 3.6em;
     background: var(--color-secundary);
     color: var(--color-button-text);
     border: 0;
     border-radius: 0.8rem;
     cursor: pointer;
-    font: 700 1.4rem Archivo;
+    font: 400 1.4rem Archivo;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -80,11 +80,11 @@
 
     .teacher-item header,
     .teacher-item footer {
-        padding: 3.2rem;
+        padding: 2.2rem;
     }
 
     .teacher-item p {
-        padding: 3.2rem;
+        padding: 2.2rem;
     }
 
     .teacher-item footer p strong {
@@ -93,11 +93,11 @@
     }
 
     .teacher-item footer button {
-        width: 24.45rem;
+        width: 20.5rem;
         font-size: 1.6rem;
         justify-content: center;
     }
     .teacher-item footer button img {
-        margin-right: 1.6rem;
+        margin-right: 0.8rem;
     }
 }
